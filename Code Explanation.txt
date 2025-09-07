@@ -1,0 +1,41 @@
+Banking System Code - 
+
+Basic Explanation
+
+This Java program is a simple Banking System that allows a user to add money, withdraw money,
+check the wallet balance, or exit the application.
+
+Main Functions Explained:
+
+1. **Scanner Class**
+The program uses `Scanner` to take input from the user.
+Example: Scanner scan = new Scanner(System.in);
+
+2. do-while Loop
+Ensures that the menu keeps repeating until the user chooses to quit.
+Example: do { ... } while (action != EXIT_APP);
+
+3. Switch Case
+Handles user choices (Add Money, Withdraw Money, Check Wallet, Exit).
+Example: switch (action) { case ADD_MONEY: }
+
+4. Add Money
+User enters an amount and it is added to the wallet.
+wallet += add;
+
+5. Withdraw Money
+User enters an amount and it is subtracted from the wallet only if enough balance is available.
+Includes condition check: if (take <= wallet)
+
+6. Check Wallet
+Displays the current balance in the wallet.
+
+7. Exit Application
+Ends the program when the user selects the quit option.
+
+If we talk in short then:
+
+The program starts with a wallet balance (18745).
+It shows a menu to the user.
+Based on user choice, it performs actions like add, withdraw, or check balance.
+The program continues until the user exits.
