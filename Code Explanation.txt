@@ -7,7 +7,7 @@ check the wallet balance, or exit the application.
 
 Main Functions Explained:
 
-1. **Scanner Class**
+1. Scanner Class
 The program uses `Scanner` to take input from the user.
 Example: Scanner scan = new Scanner(System.in);
 
